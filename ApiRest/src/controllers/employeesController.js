@@ -21,7 +21,7 @@ controller.list = (req, res) => {
             }
         });
         */
-    jwt.verify(req.token, 'mysecretkey1', (err, authData) => {
+    jwt.verify(req.token, 'mysecretkey', (err, authData) => {
         if (err) {
             res.sendStatus(403);
         } else {

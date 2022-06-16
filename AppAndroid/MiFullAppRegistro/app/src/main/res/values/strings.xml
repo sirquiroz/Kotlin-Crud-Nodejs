@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MiFullAppRegistro</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="home_activity_name">App Registros</string>
+    <string name="login_activity_name">Iniciar session</string>
+    <string name="view_activity_name">Ver Registro</string>
+    <string name="new_activity_name">Nuevo Registro</string>
+
+</resources>
