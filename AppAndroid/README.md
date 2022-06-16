@@ -3,10 +3,9 @@ App para el crud de un empleado utilizando JWT y ApiRest utilizando nodejs en el
 
 
 
-## License
-Copyright 2022 Miguel Quiroz
-MIT
+## Developer
+Miguel Quiroz
 
-**Free Software, Hell Yeah!**
+**GNU General Public License v3.0**
 <!-- 
 https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax -->
