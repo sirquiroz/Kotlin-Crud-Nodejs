@@ -7,7 +7,7 @@ const verify = (req, res, next) => {
         //const bearer = bearerHeader.split(' ');
         //get token from array
         //const bearerToken = bearer[1];
-
+        //Authorization: Bearer <token>
         const bearerToken = bearerHeader.split(" ")[1];
         req.token = bearerToken;
         //set token
@@ -16,7 +16,7 @@ const verify = (req, res, next) => {
     } else {
         //forbidden
         res.json({
-            message: 'forbiaaadden'
+            message: 'Acceso no permitido'
         });
     }
 

@@ -1,5 +1,6 @@
 
 const mysqlConnection = require('../utils/database');
+const config = require('../config')
 const controller = {};
 
 //import jwt from 'jsonwebtoken';
@@ -21,16 +22,26 @@ controller.list = (req, res) => {
             }
         });
         */
-    jwt.verify(req.token, 'mysecretkey', (err, authData) => {
+    // console.log("AQUI");
+    jwt.verify(req.token, config.secret, (err, authData) => {
         if (err) {
-            res.sendStatus(403);
+            //console.log("aqui" + req.token);
+            //es.sendStatus(403);
+            res.json({
+                message: 'Acceso no permitido'
+            });
         } else {
+
             mysqlConnection.query('SELECT * FROM employee', (err, rows, fields) => {
                 if (!err) {
+
                     res.json({
-                        rows,
-                        authData
+                        "status_code": 202,
+                        "message": "Listado",
+                        "employees": rows,
+                        //authData
                     });
+                    //console.log(rows);
                 } else {
                     console.log(err);
                 }

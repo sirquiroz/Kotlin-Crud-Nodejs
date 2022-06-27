@@ -1,10 +1,10 @@
 package ec.edu.ups.app.ui
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import ec.edu.ups.app.R
+import ec.edu.ups.app.config.Mensajes
 
 class NewRegistroActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -16,7 +16,7 @@ class NewRegistroActivity : AppCompatActivity() {
     }
     fun guardarRegistro(view: View){
         //Log.i("Login", "Log de Login")
-        Mensajes.alarmas(applicationContext, "Guardar Registro en desarrollo")
+        Mensajes.toast(applicationContext, "Guardar Registro en desarrollo")
         /*val intent = Intent(this, HomeActivity::class.java).apply {
             //putExtra(EXTRA_MESSAGE, message)
         }

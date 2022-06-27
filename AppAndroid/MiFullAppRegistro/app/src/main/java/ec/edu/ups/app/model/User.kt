@@ -1,5 +1,5 @@
 package ec.edu.ups.app.model
-
+/*
 import com.google.gson.annotations.SerializedName
 
 data class User2(
@@ -8,7 +8,7 @@ data class User2(
     val name:String,
     val edad:String
     )
-data class User (
+data class Us222er (
     @SerializedName("id")
     var id: String,
 
@@ -22,14 +22,14 @@ data class User (
     var email: String
 )
 
-data class LoginRequest (
+data class LoginReques2t (
     @SerializedName("email")
     var email: String,
 
     @SerializedName("password")
     var password: String
 )
-data class LoginResponse (
+data class LoginRespons2e (
     @SerializedName("status_code")
     var statusCode: Int,
 
@@ -37,6 +37,7 @@ data class LoginResponse (
     var authToken: String,
 
     @SerializedName("user")
-    var user: User
+    var user: User2
 )
 
+*/

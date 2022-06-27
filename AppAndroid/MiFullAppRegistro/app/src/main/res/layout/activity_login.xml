@@ -41,6 +41,7 @@
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
     <EditText
         android:id="@+id/txtUser"
         android:layout_width="wrap_content"
@@ -50,8 +51,10 @@
         android:ems="10"
         android:hint="Email/Usuario"
         android:inputType="textEmailAddress"
+        android:text="admin"
         app:layout_constraintStart_toEndOf="@+id/textView2"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
     <EditText
         android:id="@+id/txtPwd"
         android:layout_width="wrap_content"
@@ -61,6 +64,7 @@
         android:ems="10"
         android:hint="Password"
         android:inputType="numberPassword"
+        android:text="123"
         app:layout_constraintStart_toEndOf="@+id/textView4"
         app:layout_constraintTop_toBottomOf="@+id/txtUser" />
     <ImageButton
@@ -69,7 +73,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="268dp"
         android:layout_marginTop="28dp"
-        android:onClick="verificationLogin"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtPwd"
         app:srcCompat="@android:drawable/ic_lock_lock" />

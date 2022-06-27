@@ -10,13 +10,12 @@ const router = express.Router();
 
 
 //Rutas de empleados
+//router.get('/', employeesController.list);
 router.get('/', verify, employeesController.list);
 router.get('/get/:id', employeesController.get);
 router.post('/add', employeesController.save);
 router.put('/update/:id', employeesController.update);
 router.delete('/delete/:id', employeesController.delete);
-
-
 //Rutas de Login
 //router.post('/user', loginController.postUser);
 //router.get('/users', verify, loginController.getUser);
