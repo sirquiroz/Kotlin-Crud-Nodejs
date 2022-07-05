@@ -19,28 +19,14 @@
                 android:textColor="@color/headerColor"
                 android:layout_height="wrap_content" />
         </RelativeLayout>
-
         <TextView
-            android:id="@+id/name"
+            android:id="@+id/username"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:text="larntech"
+            android:layout_centerVertical="true"
             android:layout_marginStart="60dp"
-            android:text="No Name"
-            android:textColor="@color/headerColor" />
-
-        <View
-            android:id="@+id/divider"
-            android:layout_width="1dp"
-            android:layout_height="100dp"
-            android:background="?android:attr/listDivider" />
-        <TextView
-            android:id="@+id/email"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="200dp"
-            android:text="sin@mail.com"
-            android:textColor="@color/headerColor" />
-
+            android:textColor="@color/headerColor"
+            android:layout_height="wrap_content" />
 
 
     </RelativeLayout>
