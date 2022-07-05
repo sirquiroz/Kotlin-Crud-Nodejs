@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/ic_add_black_24dp.xml" value="0.173" />
+        <entry key="app/src/main/res/drawable/recyclerview_bg.xml" value="0.173" />
+        <entry key="app/src/main/res/drawable/user_bg.xml" value="0.173" />
+        <entry key="app/src/main/res/layout/activity_create_employee.xml" value="0.12364130434782608" />
+        <entry key="app/src/main/res/layout/activity_delete_employee.xml" value="0.1721014492753623" />
+        <entry key="app/src/main/res/layout/activity_edit_employeee.xml" value="0.12462006079027356" />
+        <entry key="app/src/main/res/layout/activity_list_employees.xml" value="0.11458333333333333" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/row_employees.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/row_employeesOLD.xml" value="0.1" />
+        <entry key="app/src/main/res/menu/bottom_nav_home.xml" value="0.2523076923076923" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.1203125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
